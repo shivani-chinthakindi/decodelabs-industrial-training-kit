@@ -87,3 +87,33 @@ body{
 .hero button:hover{
     transform: scale(1.05);
 }
+
+/*FEATURES*/
+
+.features{
+    padding: 80px, 10%;
+    text-align: center;
+}
+
+.features h2{
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card{
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
